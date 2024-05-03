@@ -101,9 +101,9 @@ norm_data_test.to_csv("data_test.csv", index=False)
 
 """
 
-norm_data_train = pd.read_csv("data_train.csv")
+norm_data_train = pd.read_csv("./data/data_train.csv")
 
-norm_data_test = pd.read_csv("data_test.csv")
+norm_data_test = pd.read_csv("./data/data_test.csv")
 
 lags = 5
 
