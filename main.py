@@ -291,7 +291,8 @@ combined_df = pd.DataFrame({
 })
 
 # Ruta del archivo CSV donde quieres guardar los datos
-file_path = r"C:/Users/valer/Documents/Equipo Trading/Transformers/data/values_portfolio.csv"
+#file_path = r"C:/Users/valer/Documents/Equipo Trading/Transformers/data/values_portfolio.csv"
+file_path = "data/values_portfolio.csv"
 
 # Guardar el DataFrame en un archivo CSV
 combined_df.to_csv(file_path, index=False)
