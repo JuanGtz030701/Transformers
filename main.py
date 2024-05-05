@@ -176,7 +176,7 @@ features = X_train.shape[1]
 X_train = X_train.reshape(-1, features, 1)
 X_test = X_test.reshape(-1, features, 1)
 
-
+""""
 #Already compiled. TRANSFORMER
 ## CLASSIFICATION MODEL
 
@@ -244,7 +244,7 @@ model.fit(
 )
 
 model.save("transformer_classifier.keras")
-
+"""
 
 model = tf.keras.models.load_model("transformer_classifier.keras")
 
